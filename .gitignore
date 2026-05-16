@@ -1,6 +1,13 @@
 # 忽略特定的文件夹（将 folder_name 替换为你实际的文件夹名）
 # 结尾的 / 确保忽略的是整个目录及其内容
 data/
+知识图谱完整技术报告.md
+explore.md
+task.md
+流程.md
+视频讲解稿.md
+
+
 
 # 忽略根目录下所有的 .html 文件
 /*.html
@@ -11,7 +18,6 @@ data/
 /*.pdf
 /*.png
 /*.jpg
-/*.md
 /*.zip
 /*.docx
 /*.xlsx
