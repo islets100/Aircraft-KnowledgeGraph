@@ -1,0 +1,673 @@
+{
+  "entity_types": {
+    "Aircraft": {
+      "label": "飞行器",
+      "examples": [
+        "航天飞机",
+        "X-37B",
+        "星舰",
+        "空天飞行器",
+        "变构飞行器",
+        "无人机",
+        "战斗机",
+        "轰炸机",
+        "运输机",
+        "直升机"
+      ],
+      "description": "各类飞行器及其型号"
+    },
+    "Engine": {
+      "label": "航空发动机",
+      "examples": [
+        "超燃冲压发动机",
+        "涡扇发动机",
+        "火箭发动机",
+        "涡轮喷气发动机",
+        "冲压发动机"
+      ],
+      "description": "航空/航天推进系统"
+    },
+    "Component": {
+      "label": "系统部件",
+      "examples": [
+        "机翼",
+        "起落架",
+        "尾翼",
+        "机身",
+        "襟翼",
+        "副翼",
+        "鸭翼",
+        "进气道",
+        "喷管",
+        "油箱"
+      ],
+      "description": "飞行器或设备的组成部件"
+    },
+    "Material": {
+      "label": "材料",
+      "examples": [
+        "碳-碳复合材料",
+        "钛合金",
+        "铝合金",
+        "复合材料",
+        "隔热瓦",
+        "不锈钢"
+      ],
+      "description": "工程材料"
+    },
+    "Parameter": {
+      "label": "性能参数",
+      "examples": [
+        "升阻比",
+        "马赫数",
+        "攻角",
+        "推力",
+        "阻力系数",
+        "升力系数"
+      ],
+      "description": "性能参数与技术指标"
+    },
+    "Technology": {
+      "label": "技术方法",
+      "examples": [
+        "CFD",
+        "风洞试验",
+        "变构技术",
+        "有限元分析",
+        "主动控制技术"
+      ],
+      "description": "设计分析技术与方法"
+    },
+    "Fault": {
+      "label": "故障",
+      "examples": [
+        "液压泄漏",
+        "传感器故障",
+        "磨损",
+        "过热",
+        "堵塞",
+        "异响"
+      ],
+      "description": "设备故障与异常"
+    },
+    "Maintenance": {
+      "label": "维修操作",
+      "examples": [
+        "拆卸",
+        "检测",
+        "更换密封件",
+        "清洗",
+        "润滑",
+        "紧固",
+        "调整"
+      ],
+      "description": "维护修理操作"
+    },
+    "Tool": {
+      "label": "工具设备",
+      "examples": [
+        "扭力扳手",
+        "万用表",
+        "正时灯",
+        "压力表",
+        "千斤顶",
+        "百分表"
+      ],
+      "description": "维修检测工具与设备"
+    },
+    "HydraulicComponent": {
+      "label": "液压元件",
+      "examples": [
+        "液压泵",
+        "液压缸",
+        "溢流阀",
+        "液压马达",
+        "换向阀",
+        "液压阀",
+        "油箱"
+      ],
+      "description": "液压系统组成元件"
+    },
+    "Organization": {
+      "label": "组织机构",
+      "examples": [
+        "波音",
+        "空客",
+        "中国商飞",
+        "NASA",
+        "洛克希德·马丁"
+      ],
+      "description": "研发、生产或维护机构"
+    },
+    "Airframe": {
+      "label": "机体",
+      "examples": [
+        "机身",
+        "机翼",
+        "尾翼",
+        "起落架"
+      ],
+      "description": "飞行器主要结构部件"
+    },
+    "AvionicsSystem": {
+      "label": "航电系统",
+      "examples": [
+        "飞控计算机",
+        "导航系统",
+        "通信系统",
+        "雷达"
+      ],
+      "description": "航空电子系统"
+    },
+    "MechanicalSystem": {
+      "label": "机械系统",
+      "examples": [
+        "液压系统",
+        "燃油系统",
+        "环控系统",
+        "起落架系统"
+      ],
+      "description": "机械/流体系统"
+    },
+    "FailureMode": {
+      "label": "故障模式",
+      "examples": [
+        "裂纹",
+        "磨损",
+        "腐蚀",
+        "卡滞",
+        "渗漏",
+        "断裂",
+        "烧蚀"
+      ],
+      "description": "部件或系统失效的方式"
+    },
+    "FaultCause": {
+      "label": "故障原因",
+      "examples": [
+        "疲劳",
+        "腐蚀",
+        "过载",
+        "安装错误",
+        "润滑不足"
+      ],
+      "description": "导致故障的直接原因"
+    },
+    "Symptom": {
+      "label": "故障现象",
+      "examples": [
+        "异响",
+        "抖动",
+        "告警灯亮",
+        "压力低"
+      ],
+      "description": "用户或传感器可感知的异常表现"
+    },
+    "Inspection": {
+      "label": "检测方法",
+      "examples": [
+        "无损检测",
+        "孔探",
+        "功能测试",
+        "磁粉探伤"
+      ],
+      "description": "特定的检查或测试方法"
+    },
+    "Standard": {
+      "label": "标准规范",
+      "examples": [
+        "FAA AC43.13",
+        "适航指令",
+        "维护手册章节"
+      ],
+      "description": "技术标准或规范"
+    },
+    "Document": {
+      "label": "文档",
+      "examples": [
+        "CMM",
+        "TSM",
+        "IPC",
+        "AMM"
+      ],
+      "description": "维护手册、零件目录等"
+    },
+    "Location": {
+      "label": "位置",
+      "examples": [
+        "左发",
+        "驾驶舱",
+        "翼根",
+        "货舱"
+      ],
+      "description": "部件安装或故障发生的位置"
+    },
+    "PersonRole": {
+      "label": "人员角色",
+      "examples": [
+        "放行人员",
+        "机械员",
+        "检验员"
+      ],
+      "description": "执行维修任务的人员角色"
+    },
+    "Consumable": {
+      "label": "耗材",
+      "examples": [
+        "润滑油",
+        "密封胶",
+        "清洁剂"
+      ],
+      "description": "维修消耗品"
+    },
+    "Equipment": {
+      "label": "设备",
+      "examples": [
+        "测试台",
+        "清洗机",
+        "千斤顶"
+      ],
+      "description": "维修或测试用大型设备"
+    },
+    "AerodynamicLayout": {
+      "label": "气动布局",
+      "examples": [
+        "飞翼布局",
+        "鸭翼",
+        "直机翼",
+        "常规布局"
+      ],
+      "description": "飞行器的外形和翼型设计"
+    },
+    "ControlSurface": {
+      "label": "控制面",
+      "examples": [
+        "升降舵",
+        "减速板",
+        "副翼",
+        "襟翼",
+        "方向舵"
+      ],
+      "description": "用于控制飞行的物理结构"
+    },
+    "Sensor": {
+      "label": "传感器件",
+      "examples": [
+        "空速管",
+        "雷达",
+        "静压孔"
+      ],
+      "description": "各类探测与传感设备"
+    },
+    "TestingFacility": {
+      "label": "测试设备",
+      "examples": [
+        "风洞",
+        "仿真台",
+        "试车台"
+      ],
+      "description": "测试设备或环境"
+    },
+    "FlightState": {
+      "label": "飞行状态",
+      "examples": [
+        "起飞",
+        "巡航",
+        "再入",
+        "滑翔",
+        "超声速"
+      ],
+      "description": "飞行所处的状态或阶段"
+    },
+    "PhysicalPhenomenon": {
+      "label": "物理现象",
+      "examples": [
+        "激波",
+        "烧蚀",
+        "热流",
+        "边界层",
+        "湍流"
+      ],
+      "description": "气动流场或热力学物理现象"
+    }
+  },
+  "relation_types": {
+    "has_component": {
+      "label": "包含部件",
+      "source_types": [
+        "Aircraft",
+        "Component",
+        "HydraulicComponent",
+        "Airframe",
+        "Engine",
+        "MechanicalSystem",
+        "AvionicsSystem"
+      ],
+      "target_types": [
+        "Component",
+        "HydraulicComponent",
+        "Airframe",
+        "Engine",
+        "MechanicalSystem",
+        "AvionicsSystem",
+        "ControlSurface",
+        "Sensor"
+      ],
+      "description": "整体包含部分"
+    },
+    "part_of": {
+      "label": "属于",
+      "source_types": [
+        "Component",
+        "HydraulicComponent",
+        "Engine",
+        "Airframe",
+        "MechanicalSystem"
+      ],
+      "target_types": [
+        "Aircraft",
+        "Component",
+        "HydraulicComponent",
+        "Airframe"
+      ],
+      "description": "部分属于整体"
+    },
+    "has_parameter": {
+      "label": "具有参数",
+      "source_types": [
+        "Aircraft",
+        "Engine",
+        "Component",
+        "Airframe",
+        "AerodynamicLayout",
+        "ControlSurface"
+      ],
+      "target_types": [
+        "Parameter"
+      ],
+      "description": "实体具有某种性能参数"
+    },
+    "uses_material": {
+      "label": "使用材料",
+      "source_types": [
+        "Component",
+        "Aircraft",
+        "Airframe",
+        "Engine"
+      ],
+      "target_types": [
+        "Material"
+      ],
+      "description": "部件或飞行器使用特定材料"
+    },
+    "uses_technology": {
+      "label": "使用技术",
+      "source_types": [
+        "Aircraft",
+        "Engine",
+        "Technology",
+        "Component"
+      ],
+      "target_types": [
+        "Technology"
+      ],
+      "description": "应用某种技术或方法"
+    },
+    "has_fault": {
+      "label": "存在故障",
+      "source_types": [
+        "Component",
+        "HydraulicComponent",
+        "Engine",
+        "Airframe",
+        "MechanicalSystem",
+        "ControlSurface",
+        "Sensor"
+      ],
+      "target_types": [
+        "Fault",
+        "FailureMode"
+      ],
+      "description": "部件出现故障"
+    },
+    "repaired_by": {
+      "label": "维修方式",
+      "source_types": [
+        "Fault",
+        "FailureMode"
+      ],
+      "target_types": [
+        "Maintenance"
+      ],
+      "description": "故障通过某种维修任务修复"
+    },
+    "requires_tool": {
+      "label": "需要工具",
+      "source_types": [
+        "Maintenance",
+        "Component",
+        "Inspection"
+      ],
+      "target_types": [
+        "Tool",
+        "Equipment",
+        "Consumable"
+      ],
+      "description": "维修或检查需要特定工具/设备/耗材"
+    },
+    "controls": {
+      "label": "控制",
+      "source_types": [
+        "Component",
+        "Technology",
+        "AvionicsSystem"
+      ],
+      "target_types": [
+        "Component",
+        "Engine",
+        "MechanicalSystem"
+      ],
+      "description": "一个部件或系统控制另一个"
+    },
+    "powered_by": {
+      "label": "动力来源",
+      "source_types": [
+        "Aircraft",
+        "Component"
+      ],
+      "target_types": [
+        "Engine"
+      ],
+      "description": "飞行器或部件由发动机提供动力"
+    },
+    "derived_from": {
+      "label": "发展自",
+      "source_types": [
+        "Aircraft",
+        "Technology"
+      ],
+      "target_types": [
+        "Aircraft",
+        "Technology"
+      ],
+      "description": "衍生或发展关系"
+    },
+    "operates_at": {
+      "label": "工作条件",
+      "source_types": [
+        "Aircraft",
+        "Engine"
+      ],
+      "target_types": [
+        "Parameter"
+      ],
+      "description": "在特定参数条件下工作"
+    },
+    "caused_by": {
+      "label": "故障原因",
+      "source_types": [
+        "Fault",
+        "FailureMode"
+      ],
+      "target_types": [
+        "FaultCause",
+        "Component",
+        "Fault"
+      ],
+      "description": "故障由某原因引起"
+    },
+    "located_in": {
+      "label": "安装位置",
+      "source_types": [
+        "Component",
+        "HydraulicComponent",
+        "Tool",
+        "Airframe"
+      ],
+      "target_types": [
+        "Component",
+        "Aircraft",
+        "Location"
+      ],
+      "description": "部件安装或位于某处"
+    },
+    "performs": {
+      "label": "执行功能",
+      "source_types": [
+        "Component",
+        "HydraulicComponent",
+        "Engine"
+      ],
+      "target_types": [
+        "Technology",
+        "Parameter"
+      ],
+      "description": "执行某项功能或实现某参数"
+    },
+    "connected_to": {
+      "label": "连接",
+      "source_types": [
+        "HydraulicComponent",
+        "Component"
+      ],
+      "target_types": [
+        "HydraulicComponent",
+        "Component"
+      ],
+      "description": "部件之间互相连接"
+    },
+    "related_to": {
+      "label": "相关",
+      "source_types": [],
+      "target_types": [],
+      "description": "共现或弱相关关系"
+    },
+    "configured_as": {
+      "label": "配置为",
+      "source_types": [
+        "Aircraft",
+        "Component"
+      ],
+      "target_types": [
+        "Technology",
+        "Parameter"
+      ],
+      "description": "配置成某种模式或状态"
+    },
+    "measured_by": {
+      "label": "测量方式",
+      "source_types": [
+        "Parameter",
+        "Fault"
+      ],
+      "target_types": [
+        "Tool",
+        "Equipment",
+        "Inspection"
+      ],
+      "description": "参数或故障通过某种工具/方法测量"
+    },
+    "symptom_of": {
+      "label": "故障现象",
+      "source_types": [
+        "Symptom",
+        "Fault"
+      ],
+      "target_types": [
+        "Fault",
+        "FailureMode"
+      ],
+      "description": "现象是故障的表现"
+    },
+    "exhibits": {
+      "label": "表现出故障",
+      "source_types": [
+        "Component",
+        "Engine",
+        "Airframe"
+      ],
+      "target_types": [
+        "FailureMode",
+        "Fault"
+      ],
+      "description": "部件表现出某种故障模式"
+    },
+    "detected_by": {
+      "label": "检测方式",
+      "source_types": [
+        "FailureMode",
+        "Fault"
+      ],
+      "target_types": [
+        "Inspection"
+      ],
+      "description": "故障可通过某种检测发现"
+    },
+    "rectifies": {
+      "label": "修复故障",
+      "source_types": [
+        "Maintenance",
+        "MaintenanceTask"
+      ],
+      "target_types": [
+        "FailureMode",
+        "Fault"
+      ],
+      "description": "维修任务排除故障"
+    },
+    "references": {
+      "label": "参考文档",
+      "source_types": [
+        "Maintenance",
+        "Inspection"
+      ],
+      "target_types": [
+        "Document",
+        "Standard"
+      ],
+      "description": "参考手册或标准"
+    },
+    "attached_to": {
+      "label": "安装在",
+      "source_types": [
+        "Component"
+      ],
+      "target_types": [
+        "Component"
+      ],
+      "description": "一个部件安装在另一个部件上"
+    },
+    "has_property": {
+      "label": "具有属性",
+      "source_types": [
+        "Component",
+        "Engine",
+        "Aircraft"
+      ],
+      "target_types": [
+        "Parameter"
+      ],
+      "description": "具有额定值或属性"
+    }
+  }
+}

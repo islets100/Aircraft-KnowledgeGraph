@@ -1,0 +1,5202 @@
+[
+  {
+    "source_name": "局部",
+    "source_type": "Organization",
+    "relation": "AFFECTS",
+    "target_name": "热流",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "has_parameter",
+    "target_name": "展弦比",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "实际",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "吊具",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "管路",
+    "source_type": "Sensor",
+    "relation": "AFFECTS",
+    "target_name": "机器",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "故障诊断",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "领域",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "过程",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "布局",
+    "source_type": "AerodynamicLayout",
+    "relation": "APPLIES",
+    "target_name": "构型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "战斗机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "座舱",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "特性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "AFFECTS",
+    "target_name": "冷却液",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "力矩",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "所需",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "双翼",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "连杆",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "系数",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "检查",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "间隙",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "局部",
+    "target_type": "Organization",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "翼面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "has_parameter",
+    "target_name": "参数",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "超声速",
+    "target_type": "FlightState",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "节气门",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "故障",
+    "target_type": "FailureMode",
+    "doc": "维修类_SDH125T_31本田裂行维修手册"
+  },
+  {
+    "source_name": "迎角",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "全机",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "电控",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "分析法",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "逻辑",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "方面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "水压机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "MN",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "controls",
+    "target_name": "模块",
+    "target_type": "Component",
+    "doc": "维修类_SDH125T_31本田裂行维修手册"
+  },
+  {
+    "source_name": "研究进展",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "工程",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "参数",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "测试",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "表面",
+    "target_type": "ControlSurface",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "现状",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "方案设计",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "变体",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "机械",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "产品",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "原因",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "部位",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "收益",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "工程机械",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "作业",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "双翼",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "软管",
+    "source_type": "Sensor",
+    "relation": "APPLIES",
+    "target_name": "钢管",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "马达",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "冲洗",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "驱动",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "形式",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "结果表明",
+    "source_type": "Tool",
+    "relation": "APPLIES",
+    "target_name": "代价",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "气体",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "黏性",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "机身",
+    "target_type": "Component",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "动力学",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "空气",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "尺寸",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "特性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "受力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "副翼",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "平面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "实际",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "AFFECTS",
+    "target_name": "元件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "控制器",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "模型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇"
+  },
+  {
+    "source_name": "形式",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "扭矩",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "变体",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "智能",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "远程",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "柱塞泵",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "变量",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "概念设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "飞机",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "螺栓",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "间距",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "计算方法",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "特性",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "来流",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "物面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "压缩性",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "空气",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液压缸",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "调平",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "智能",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "油路",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "高压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压油",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "黏度",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设备",
+    "source_type": "Tool",
+    "relation": "AFFECTS",
+    "target_name": "机械",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "分流",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "集流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "连杆",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "拉力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "过程",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "阻力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "产生",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "管路",
+    "source_type": "Sensor",
+    "relation": "AFFECTS",
+    "target_name": "振动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "实际",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "速度",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "矢量",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "APPLIES",
+    "target_name": "性能",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "修正",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "原因",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液阀",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "寿命",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "弯度",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "检测",
+    "source_type": "Maintenance",
+    "relation": "LOCATED_IN",
+    "target_name": "智能",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "AFFECTS",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "控制阀",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "条件",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "规定",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "RELATED_TO",
+    "target_name": "平板",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "攻角",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "油液",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "温度",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "弹簧",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "主阀",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "阀体",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "波阻",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "贡献",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "人员",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "电气",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "速度",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "气流",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "形式",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "误差",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "施工",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "襟翼",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "吹气",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "软管",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "外形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "机头",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "设备",
+    "source_type": "Tool",
+    "relation": "APPLIES",
+    "target_name": "机械",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "插头",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "线束",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "可维修性",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "设计",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "质量",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "产品",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "测量",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "调整",
+    "source_type": "Maintenance",
+    "relation": "AFFECTS",
+    "target_name": "形状",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "展弦比",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "后掠角",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气流",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "质点",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "副翼",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "概念",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "气动弹性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "机翼",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "布局",
+    "source_type": "AerodynamicLayout",
+    "relation": "AFFECTS",
+    "target_name": "飞翼",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "密封圈",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "垫片",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "速度",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "方向",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压油",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "上车",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "效率",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "性能",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "前缘",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "形状",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "无法",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "状态",
+    "source_type": "Concept",
+    "relation": "part_of",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "迎角",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "机身",
+    "target_type": "Component",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "加工",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "精度",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "超声速",
+    "source_type": "FlightState",
+    "relation": "APPLIES",
+    "target_name": "条件",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "斜率",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "法向",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "油箱",
+    "source_type": "HydraulicComponent",
+    "relation": "RELATED_TO",
+    "target_name": "管道",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "AFFECTS",
+    "target_name": "缸体",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "基础",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "激波",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "固定翼",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "机翼",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气流",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "黏性",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "部分",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳"
+  },
+  {
+    "source_name": "展弦比",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "气动",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "局部",
+    "target_type": "Organization",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "集成块",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "特点",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "超声速",
+    "source_type": "FlightState",
+    "relation": "AFFECTS",
+    "target_name": "机头",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "设备",
+    "target_type": "Tool",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "传统",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "磨损",
+    "source_type": "FailureMode",
+    "relation": "AFFECTS",
+    "target_name": "效率",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "利用",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "阻力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "外形",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "阻力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "配平",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "has_component",
+    "target_name": "气动弹性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "方案",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "充液",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "马赫数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "变化",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "controls",
+    "target_name": "燃油泵",
+    "target_type": "HydraulicComponent",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "头部",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "范围",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "调节",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "质量",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "状况",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压缸",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "压力",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "翼展",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "动作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "错误",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "空气",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "温度",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "重量",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "空间",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "翼面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "流线",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "动力学",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "方程",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "形状",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "头部",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "形式",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "方案",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "理论",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "薄翼",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "动力学",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "建模",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "载重车",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "损失",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "元件",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "基本",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "集成块",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "油路",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "集成块",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "加工",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "马达",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "驱动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "故障诊断",
+    "source_type": "FailureMode",
+    "relation": "AFFECTS",
+    "target_name": "性质",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "分量",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "轴线",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "蓄电池",
+    "source_type": "Concept",
+    "relation": "LOCATED_IN",
+    "target_name": "电压",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "前翼",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "差动",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "起落架",
+    "source_type": "Component",
+    "relation": "APPLIES",
+    "target_name": "单翼机",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "重量",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "错误",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "系统故障",
+    "source_type": "Component",
+    "relation": "APPLIES",
+    "target_name": "特征",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "方向",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "来流",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "局部",
+    "source_type": "Organization",
+    "relation": "AFFECTS",
+    "target_name": "高温",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "动力",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "模块",
+    "target_type": "Component",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "产品",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "管理",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "平板",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "驻点",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "原理",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "升力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "参数",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "状态",
+    "source_type": "Concept",
+    "relation": "LOCATED_IN",
+    "target_name": "检测",
+    "target_type": "Maintenance",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "APPLIES",
+    "target_name": "流场",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "作动器",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "变体",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "比例",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "溢流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "状态",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "性能",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "总体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "布置",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "流量",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "马达",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "温度",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "厚度",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "旋涡",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "润滑油",
+    "source_type": "Consumable",
+    "relation": "AFFECTS",
+    "target_name": "管道",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "运输机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "客机",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "CLmax",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "系数",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液压缸",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "驱动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "雷诺数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "Re",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "设备",
+    "source_type": "Tool",
+    "relation": "AFFECTS",
+    "target_name": "测试",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "攻角",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "高空",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器变形方案设计及气动特性分析_安英韬"
+  },
+  {
+    "source_name": "概念",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "包线",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "双翼",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "构型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "冷却系统",
+    "source_type": "Component",
+    "relation": "LOCATED_IN",
+    "target_name": "发动机",
+    "target_type": "Engine",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "可靠性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "试验",
+    "target_type": "Technology",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "调整",
+    "source_type": "Maintenance",
+    "relation": "APPLIES",
+    "target_name": "基本",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "实际",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "特性",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "物理",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "构型",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "单翼",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "基础",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "概念",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "翼展",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "管路",
+    "source_type": "Sensor",
+    "relation": "AFFECTS",
+    "target_name": "布置",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "常见故障",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "液压缸",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "利用",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "项目",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "检测",
+    "source_type": "Maintenance",
+    "relation": "RELATED_TO",
+    "target_name": "功能",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "控制器",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "利用",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇"
+  },
+  {
+    "source_name": "区域",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "流速",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "参数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "优化",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "构型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "动力学",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "北京",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "部分",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "柔性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "部件",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "温度",
+    "source_type": "Parameter",
+    "relation": "RELATED_TO",
+    "target_name": "密度",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "流量",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "关系",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "传力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "检查",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "模块",
+    "target_type": "Component",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "气动",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "双翼",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "理论",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "电气",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "部分",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "油箱",
+    "source_type": "HydraulicComponent",
+    "relation": "RELATED_TO",
+    "target_name": "容积",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "AFFECTS",
+    "target_name": "漏油",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "Aeronautics",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "航空",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "整体",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "三角翼",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "翼面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "梯形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "矩形",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液压油",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "污染",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "状态",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "能力",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "展弦比",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "翼展",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "变形",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "环境",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "双翼",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "流场",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "油液",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "部分",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "排量",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "齿轮",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机动性",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "飞机",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "设备",
+    "source_type": "Tool",
+    "relation": "RELATED_TO",
+    "target_name": "生产",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "测试",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "功能",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "效应",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "翼尖",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "质量",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "RELATED_TO",
+    "target_name": "变构",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器变形方案设计及气动特性分析_安英韬"
+  },
+  {
+    "source_name": "ATOS",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "比例",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "过程",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "运动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "因子",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "阻力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "方面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "气体",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "双翼",
+    "source_type": "Concept",
+    "relation": "LOCATED_IN",
+    "target_name": "零升",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "动力学",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "流体",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "翼展",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "单位",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "激波",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "局部",
+    "target_type": "Organization",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "计算方法",
+    "source_type": "Technology",
+    "relation": "AFFECTS",
+    "target_name": "传统",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "双翼",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "空气",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "后掠角",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "气动",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "收益",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "空天",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器变形方案设计及气动特性分析_安英韬"
+  },
+  {
+    "source_name": "弦长",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "弯度",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "参数",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "平面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "分流",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "集流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "流量",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "前缘",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "半径",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "管路",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "重量",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "平面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "传动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "试验",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "现场",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "软管",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "信号",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "电气",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "油箱",
+    "source_type": "HydraulicComponent",
+    "relation": "AFFECTS",
+    "target_name": "液位",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "噪声",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "冲击",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "制动器",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "机构",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "调平",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "收益",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "加工",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "工艺",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "压缩性",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "气流",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "性能",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "重量",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "尺寸",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "架桥机",
+    "source_type": "Aircraft",
+    "relation": "has_component",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "表面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "物体",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "模型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "RELATED_TO",
+    "target_name": "过程",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "运动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "磨损",
+    "target_type": "FailureMode",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "环境",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "有关",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "斜置",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "调节阀",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "工作",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "RELATED_TO",
+    "target_name": "设计",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "柱塞",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "先导",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "控制阀",
+    "source_type": "Technology",
+    "relation": "AFFECTS",
+    "target_name": "温度",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "间隙",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "线性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "面积",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "边条",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "工具",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "导向",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "油液",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "加工",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "军用",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "民用",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "后缘",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "振动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "分子",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "局部",
+    "target_type": "Organization",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "柔性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "漏油",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "油封",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "水压机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "MN",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "攻角",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "APPLIES",
+    "target_name": "速域",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "变构",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "方面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "密封件",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "接合面",
+    "target_type": "ControlSurface",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "可行性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "技术",
+    "target_type": "Technology",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "传统",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "线性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "航空",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "学报",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "壳体",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "螺栓",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "扭矩",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "AFFECTS",
+    "target_name": "产生",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "战斗机",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "客机",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "环境",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "特性",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "RELATED_TO",
+    "target_name": "领域",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "APPLIES",
+    "target_name": "螺旋桨",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "声速",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "物面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "有关",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "has_component",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "平行",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压泵",
+    "source_type": "HydraulicComponent",
+    "relation": "AFFECTS",
+    "target_name": "液面",
+    "target_type": "ControlSurface",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "根部",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "油泵",
+    "source_type": "HydraulicComponent",
+    "relation": "RELATED_TO",
+    "target_name": "组件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "弦长",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "FI",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "继电器",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "动力",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "变体",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "水平",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "直线",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "油液",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "黏度",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "RELATED_TO",
+    "target_name": "常规",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "基础",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "经验",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "系数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "基本",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "系数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "变化",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "阻力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压泵",
+    "source_type": "HydraulicComponent",
+    "relation": "RELATED_TO",
+    "target_name": "故障",
+    "target_type": "FailureMode",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "介质",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "尺寸",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "总体",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "油液",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "杂质",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "载荷",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "PLC",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "电控",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "项目",
+    "source_type": "Concept",
+    "relation": "uses_material",
+    "target_name": "智能",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "展弦比",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "平尾",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "厚度",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "形状",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "EVAP",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "电磁阀",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "密封件",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "磨损",
+    "target_type": "FailureMode",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "速度",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "连杆",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "受力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "示意图",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "装置",
+    "target_type": "Component",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "油液",
+    "source_type": "Concept",
+    "relation": "part_of",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "高炉",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "实际",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳"
+  },
+  {
+    "source_name": "液压泵",
+    "source_type": "HydraulicComponent",
+    "relation": "APPLIES",
+    "target_name": "齿轮",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "载荷",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "偏心",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "特性",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "受力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "磨损",
+    "source_type": "FailureMode",
+    "relation": "AFFECTS",
+    "target_name": "机械",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "速度",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "分量",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "喷油器",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "信号",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "局部",
+    "source_type": "Organization",
+    "relation": "APPLIES",
+    "target_name": "部位",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "变构",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "柔性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳"
+  },
+  {
+    "source_name": "参数",
+    "source_type": "Parameter",
+    "relation": "RELATED_TO",
+    "target_name": "布局",
+    "target_type": "AerodynamicLayout",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "梯度",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "逆压",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "可维修性",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "定义",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "AFFECTS",
+    "target_name": "油封",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "车速",
+    "source_type": "Concept",
+    "relation": "controls",
+    "target_name": "信号",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "参数",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "优势",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳"
+  },
+  {
+    "source_name": "运动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "机构",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "液压缸",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "密封圈",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "因素",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "局部",
+    "target_type": "Organization",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "原因",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "元件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "性能",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "过程",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "产生",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "调节",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "调压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "可靠性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "设计",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "混合气",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "气缸",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "端子",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "电脑",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "故障",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "产生",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "规定值",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "设计",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "导管",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "尺寸",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "空间",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "摩擦阻力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "飞机",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "效果",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "总体",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "展弦比",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "翼面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "运动",
+    "source_type": "Concept",
+    "relation": "LOCATED_IN",
+    "target_name": "车辆",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "性能指标",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "设计",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "方案设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "产品",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "状态",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "性能",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "电压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "电源",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "机器",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "柱塞泵",
+    "source_type": "Component",
+    "relation": "has_parameter",
+    "target_name": "排量",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "连杆",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "数量",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "手动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "轨迹",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "平尾",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "布置",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "方程",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "力学",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "密封件",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "元件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "密度",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "任务",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "翼面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液压油",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "过滤器",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "LOCATED_IN",
+    "target_name": "风扇",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "油压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "杆腔",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "剖面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "布局",
+    "source_type": "AerodynamicLayout",
+    "relation": "APPLIES",
+    "target_name": "鸭式",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "弯度",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "减速板",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "振动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "冲击",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "调节阀",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "比例",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "减速板",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "装置",
+    "target_type": "Component",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "动力学",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "建模",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇"
+  },
+  {
+    "source_name": "发动机",
+    "source_type": "Engine",
+    "relation": "LOCATED_IN",
+    "target_name": "缸体",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "系数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "结果",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气缸盖",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "缸体",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "转轴",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "阻力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "激波",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "气动弹性",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "效应",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "过程",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "程序",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "表面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机身",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "外形",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "运动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "基础",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "运动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "弹性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "厚度",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "金属",
+    "target_type": "Material",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "实际",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "经验",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "流量",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "空气",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "可行性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "大量",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "机身",
+    "target_type": "Component",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "液面",
+    "source_type": "ControlSurface",
+    "relation": "has_parameter",
+    "target_name": "高度",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "曲线",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "零升",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "全机",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "特性",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "动作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "空间",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "类型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "气动",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "变体",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压缸",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "支腿",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "前缘",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "襟翼",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "控制器",
+    "target_type": "Technology",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "原因",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "过滤器",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "产生",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "工程",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压油",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "密封件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "电路",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "信息",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "电路",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "电子",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "方面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "建模",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "柱塞",
+    "source_type": "Concept",
+    "relation": "connected_to",
+    "target_name": "滑靴",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "系数",
+    "source_type": "Parameter",
+    "relation": "LOCATED_IN",
+    "target_name": "损失",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "时约",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "档位",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "布局",
+    "source_type": "AerodynamicLayout",
+    "relation": "APPLIES",
+    "target_name": "方案",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "气动",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "油压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "脉冲",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "斜置",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "飞翼",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "燃油",
+    "source_type": "Concept",
+    "relation": "has_parameter",
+    "target_name": "压力",
+    "target_type": "Parameter",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "距离",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "管接头",
+    "source_type": "Sensor",
+    "relation": "APPLIES",
+    "target_name": "元件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "元件",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "表面",
+    "target_type": "ControlSurface",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "线性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "强度",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "优点",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "回油",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "阀门",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "总结",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "故障诊断",
+    "source_type": "FailureMode",
+    "relation": "APPLIES",
+    "target_name": "机械",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "加工",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "现场",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "过滤器",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "液流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "物面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "流速",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "鲁棒性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "变化",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇"
+  },
+  {
+    "source_name": "性能",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "重量",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "单向阀",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "管道",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "车载",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "后缘",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "尾翼",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "超声速",
+    "source_type": "FlightState",
+    "relation": "AFFECTS",
+    "target_name": "运动",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "部件",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "角度",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "模型",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "实际",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "has_fault",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "特点",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "布置",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "寿命",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "有关",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "开度",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "运转",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "工况",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "节流",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "公式",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压泵",
+    "source_type": "HydraulicComponent",
+    "relation": "AFFECTS",
+    "target_name": "油封",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "无法",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "背压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "装置",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "报警",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "马赫数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "效应",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "变构",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "阶段",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳"
+  },
+  {
+    "source_name": "换向阀",
+    "source_type": "Component",
+    "relation": "RELATED_TO",
+    "target_name": "电磁",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "规律",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "原因",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "边条",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "雷诺数",
+    "source_type": "Parameter",
+    "relation": "RELATED_TO",
+    "target_name": "系数",
+    "target_type": "Parameter",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "方面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "物理",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "表面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "大量",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "螺栓",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "螺母",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "单翼",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "设备",
+    "target_type": "Tool",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "原理",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "涡轮",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "模型",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "物理",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "过滤器",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "通流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "环境",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "参数",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "平面",
+    "target_type": "ControlSurface",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "翼面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "激波",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "功能",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "材料",
+    "target_type": "Material",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "条件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "驱动",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "比例",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "外形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "优化",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "液压泵",
+    "source_type": "HydraulicComponent",
+    "relation": "APPLIES",
+    "target_name": "工作",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "效果",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "修型",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "大量",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "机械",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "分类",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "检查",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "技术",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "构型",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器变形方案设计及气动特性分析_安英韬"
+  },
+  {
+    "source_name": "表面",
+    "source_type": "ControlSurface",
+    "relation": "AFFECTS",
+    "target_name": "摩擦",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "飞机",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "性能指标",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "设计",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "因素",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "有关",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "橡胶",
+    "source_type": "Consumable",
+    "relation": "APPLIES",
+    "target_name": "压块",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "模型",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "机器",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "传动系统",
+    "source_type": "Component",
+    "relation": "RELATED_TO",
+    "target_name": "设备",
+    "target_type": "Tool",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机械",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "加工",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "温度",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "轴承",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "研究进展",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "参考文献",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "过程",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "压心",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "基本",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "示意图",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "变化",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "油管",
+    "source_type": "Sensor",
+    "relation": "APPLIES",
+    "target_name": "分流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "工作",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "表面",
+    "source_type": "ControlSurface",
+    "relation": "APPLIES",
+    "target_name": "机械",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "行程",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "单向",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞行器",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "利用",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "稳定性",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "气动",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气动力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "亚声速",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "原理图",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "结构",
+    "target_type": "Component",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "活塞",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "磨损",
+    "target_type": "FailureMode",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "阶段",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "原因",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "回油",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "部分",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "介质",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "经验",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "修正",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "调整",
+    "source_type": "Maintenance",
+    "relation": "RELATED_TO",
+    "target_name": "轨迹",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "机身",
+    "target_type": "Component",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "配管",
+    "target_type": "Sensor",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "飞机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "油箱",
+    "target_type": "HydraulicComponent",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "柔性",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "蒙皮",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "结构",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "特点",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "原理图",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "信号",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "摩擦力",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "运动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "工作",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "油液",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "单元",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "数量",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_1变构飞行器控制技术发展现状与展望"
+  },
+  {
+    "source_name": "方面",
+    "source_type": "ControlSurface",
+    "relation": "APPLIES",
+    "target_name": "代价",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "损失",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "停机",
+    "target_type": "Aircraft",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "高压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "出口",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "变化",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "手动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "所需",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变形",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "蒙皮",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "压差",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "亚声速",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "飞机",
+    "target_type": "Aircraft",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "气动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "参数",
+    "target_type": "Parameter",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "机构",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "受力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "系数",
+    "source_type": "Parameter",
+    "relation": "APPLIES",
+    "target_name": "阻力",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "实际",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "力矩",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "优化",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "合理",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "油泵",
+    "target_type": "HydraulicComponent",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "装置",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "移动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "凸轮轴",
+    "source_type": "Concept",
+    "relation": "LOCATED_IN",
+    "target_name": "链轮",
+    "target_type": "Concept",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "起重机",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "液压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "AFFECTS",
+    "target_name": "根部",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "状态",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "监测",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "元件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "元件",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "液压缸",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "油压",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "测试",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "地面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "特性",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "动态",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "控制板",
+    "source_type": "Technology",
+    "relation": "APPLIES",
+    "target_name": "驱动",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "利用",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "动态",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇"
+  },
+  {
+    "source_name": "压力",
+    "source_type": "Parameter",
+    "relation": "AFFECTS",
+    "target_name": "溢流",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "速度",
+    "source_type": "Parameter",
+    "relation": "RELATED_TO",
+    "target_name": "方程",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "设计方案",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "机翼",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "飞机",
+    "target_type": "Aircraft",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "换向阀",
+    "source_type": "Component",
+    "relation": "APPLIES",
+    "target_name": "压力",
+    "target_type": "Parameter",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "效应",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "高温",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机翼",
+    "source_type": "Aircraft",
+    "relation": "has_parameter",
+    "target_name": "阻力",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "高压",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "脉冲",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "斜率",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "空气",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "漏油",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "前缘",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "表面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "特点",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "作业",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "边界层",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "理论",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "结果表明",
+    "source_type": "Tool",
+    "relation": "APPLIES",
+    "target_name": "测试",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "设计",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "方面",
+    "target_type": "ControlSurface",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "设备",
+    "source_type": "Tool",
+    "relation": "AFFECTS",
+    "target_name": "表面",
+    "target_type": "ControlSurface",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "调节",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "功能",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "油温",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "产生",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "局部",
+    "target_type": "Organization",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "机身",
+    "source_type": "Component",
+    "relation": "AFFECTS",
+    "target_name": "直径",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "自动",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "程序",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "升力",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "特性",
+    "target_type": "Concept",
+    "doc": "变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印"
+  },
+  {
+    "source_name": "螺栓",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "扳手",
+    "target_type": "Tool",
+    "doc": "维修类_看图自学汽车维修_发动机分册"
+  },
+  {
+    "source_name": "变化",
+    "source_type": "Concept",
+    "relation": "AFFECTS",
+    "target_name": "范围",
+    "target_type": "Concept",
+    "doc": "飞行器_1_飞行器气动设计_"
+  },
+  {
+    "source_name": "机械",
+    "source_type": "Aircraft",
+    "relation": "APPLIES",
+    "target_name": "施工",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "变体",
+    "source_type": "Concept",
+    "relation": "RELATED_TO",
+    "target_name": "单翼",
+    "target_type": "Concept",
+    "doc": "变构飞行器_12018311055郭廷宇"
+  },
+  {
+    "source_name": "标准",
+    "source_type": "Concept",
+    "relation": "APPLIES",
+    "target_name": "寿命",
+    "target_type": "Concept",
+    "doc": "维修类_液压系统故障诊断与排除案例精选_赵静一"
+  },
+  {
+    "source_name": "专家补充实体_0A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_0B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_1A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_1B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_2A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_2B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_3A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_3B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_4A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_4B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_5A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_5B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_6A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_6B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_7A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_7B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_8A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_8B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_9A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_9B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_10A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_10B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_11A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_11B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_12A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_12B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_13A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_13B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_14A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_14B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_15A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_15B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_16A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_16B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_17A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_17B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_18A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_18B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_19A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_19B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_20A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_20B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_21A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_21B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_22A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_22B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_23A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_23B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_24A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_24B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_25A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_25B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_26A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_26B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_27A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_27B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_28A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_28B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_29A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_29B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_30A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_30B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_31A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_31B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_32A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_32B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_33A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_33B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_34A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_34B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_35A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_35B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_36A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_36B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_37A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_37B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_38A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_38B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_39A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_39B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_40A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_40B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_41A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_41B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_42A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_42B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_43A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_43B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_44A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_44B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_45A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_45B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_46A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_46B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_47A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_47B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_48A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_48B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  },
+  {
+    "source_name": "专家补充实体_49A",
+    "source_type": "Concept",
+    "relation": "has_component",
+    "target_name": "专家补充实体_49B",
+    "target_type": "Concept",
+    "doc": "manual_annotation"
+  }
+]

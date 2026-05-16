@@ -1,0 +1,191 @@
+[
+  {
+    "domain": "变构飞行器",
+    "file": "12018311055郭廷宇.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_12018311055郭廷宇.txt",
+    "chars": 131560,
+    "status": "extracted"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_1变体飞行器变形方式及气动布局设计关键技术研究进展_加水印.txt",
+    "chars": 83724,
+    "status": "extracted"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "1变构飞行器控制技术发展现状与展望.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_1变构飞行器控制技术发展现状与展望.txt",
+    "chars": 29512,
+    "status": "extracted"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "1空天变构飞行技术研究现状与未来发展研判_刘思佳.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_1空天变构飞行技术研究现状与未来发展研判_刘思佳.txt",
+    "chars": 13358,
+    "status": "extracted"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "1跨域变构飞行器变形方案设计及气动特性分析_安英韬.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_1跨域变构飞行器变形方案设计及气动特性分析_安英韬.txt",
+    "chars": 10617,
+    "status": "extracted"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_1跨域变构飞行器自学习模型预测姿态控制方法_贾正宇.txt",
+    "chars": 21197,
+    "status": "extracted"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "国防科技著作精品译丛  变体飞行器与结构_14229129.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "空天变构飞行技术专栏序_包为民.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "变构飞行器",
+    "file": "论文-CJA.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\变构飞行器_论文_CJA.txt",
+    "chars": 37425,
+    "status": "extracted"
+  },
+  {
+    "domain": "维修类",
+    "file": "SDH125T-31本田裂行维修手册.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\维修类_SDH125T_31本田裂行维修手册.txt",
+    "chars": 45878,
+    "status": "extracted"
+  },
+  {
+    "domain": "维修类",
+    "file": "全球火炮鉴赏指南（珍藏版） -- 《深度军事》 编委会 -- 世界军事鉴赏指南系列, 2018 -- 清华大学出版社.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "维修类",
+    "file": "液压系统故障诊断与排除案例精选 赵静一.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\维修类_液压系统故障诊断与排除案例精选_赵静一.txt",
+    "chars": 362715,
+    "status": "extracted"
+  },
+  {
+    "domain": "维修类",
+    "file": "现代液压系统使用维护及故障诊断_张利平.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "维修类",
+    "file": "现代火炮自动机设计理论.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "维修类",
+    "file": "看图自学汽车维修_发动机分册.pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\维修类_看图自学汽车维修_发动机分册.txt",
+    "chars": 136380,
+    "status": "extracted"
+  },
+  {
+    "domain": "维修类",
+    "file": "装甲车辆故障诊断技术 -- 郑长松,冯辅周,张丽霞,江鹏程编著.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "维修类",
+    "file": "装甲车辆构造与原理.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "0_可重复使用新型航天飞行器结构设计.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "0_航天飞机空气动力学分析.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "2_飞行器结构设计 .pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "3_高超声速飞行器气动热力学设计问题精选 .pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "1_飞行器气动设计 .pdf",
+    "out": "F:\\Projection\\KnowledgeGraph\\output\\extracted_text\\飞行器_1_飞行器气动设计_.txt",
+    "chars": 301889,
+    "status": "extracted"
+  },
+  {
+    "domain": "飞行器",
+    "file": "涡轮发动机飞机结构与系统__AV__上__第2版.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "理解航天：航天学入门.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "纯字典1111115_航空航天专业术语.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "航天器飞行动力学原理_肖业伦.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  },
+  {
+    "domain": "飞行器",
+    "file": "航天飞行动力学.pdf",
+    "out": null,
+    "chars": 0,
+    "status": "scanned"
+  }
+]

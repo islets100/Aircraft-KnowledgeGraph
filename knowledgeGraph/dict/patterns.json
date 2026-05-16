@@ -1,0 +1,314 @@
+{
+  "patterns": [
+    {
+      "regex": "([^，。；！？]{1,25})(?:由|包含|包括|分为)([^，。；！？]{1,25})(?:组成|构成|部分|系统|组件|部件)",
+      "relation": "has_component",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})是([^，。；！？]{1,25})的(?:部分|核心|关键部件)",
+      "relation": "part_of",
+      "group1": "target",
+      "group2": "source"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})的([^，。；！？]{1,25})(?:系统|装置|部件|结构|机构)",
+      "relation": "has_component",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})由([^，。；！？]{1,25})(?:组成|构成|包括)",
+      "relation": "has_component",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})包含([^，。；！？]{1,25})(?:、|，|。|以及)",
+      "relation": "has_component",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})采用([^，。；！？]{1,25})(?:材料|合金|复合材料)",
+      "relation": "uses_material",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})使用([^，。；！？]{1,25})(?:技术|方法|算法)",
+      "relation": "uses_technology",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})采用([^，。；！？]{1,25})(?:技术|方法)",
+      "relation": "uses_technology",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})具有([^，。；！？]{1,25})(?:特性|性能|特点)",
+      "relation": "has_parameter",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})的升阻比",
+      "relation": "has_parameter",
+      "group1": "source",
+      "group2": "升阻比"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})的马赫数",
+      "relation": "has_parameter",
+      "group1": "source",
+      "group2": "马赫数"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:出现|发生|产生)([^，。；！？]{1,25})(?:故障|泄漏|磨损|过热|异响|异常|损坏|误差)",
+      "relation": "has_fault",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:故障|泄漏|磨损|异常)(?:原因|由于)([^，。；！？]{1,25})",
+      "relation": "caused_by",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:属于|是)([^，。；！？]{1,25})(?:系统|装置|的一部分)",
+      "relation": "part_of",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:动力|推进)(?:为|采用|使用)(.+?发动机)",
+      "relation": "powered_by",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})由([^，。；！？]{1,25})(?:驱动|提供动力)",
+      "relation": "powered_by",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:发展为|演变为|衍生出)([^，。；！？]{1,25})",
+      "relation": "derived_from",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})安装在([^，。；！？]{1,25})(?:上|中|内)",
+      "relation": "located_in",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})位于([^，。；！？]{1,25})(?:上|中|内|下方|上方)",
+      "relation": "located_in",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:控制|调节|管理)([^，。；！？]{1,25})",
+      "relation": "controls",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})与([^，。；！？]{1,25})(?:连接|相连|连接到)",
+      "relation": "connected_to",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:需要|使用)([^，。；！？]{1,25})(?:进行测试|进行测量|进行维修|排除故障|检测)",
+      "relation": "requires_tool",
+      "group1": "target",
+      "group2": "source"
+    },
+    {
+      "regex": "使用([^，。；！？]{1,25})(?:检测|测量|检查)([^，。；！？]{1,25})",
+      "relation": "measured_by",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:用于|用来)([^，。；！？]{1,25})(?:检测|测量|诊断)",
+      "relation": "measured_by",
+      "group1": "target",
+      "group2": "source"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:配置|配置为)([^，。；！？]{1,25})(?:构型|模式)",
+      "relation": "configured_as",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})可([^，。；！？]{1,25})(?:飞行|运行|工作)",
+      "relation": "operates_at",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:发生|出现|导致|造成|引发)([^，。；！？]{1,25})(?:故障|异常|损坏|误差)",
+      "relation": "has_fault",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:采用|利用|使用|基于)([^，。；！？]{1,25})(?:技术|工艺|算法|方法)",
+      "relation": "uses_technology",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:采用|使用|由)([^，。；！？]{1,25})(?:材料|合金|复合材料)(?:制成|制造|打造)",
+      "relation": "uses_material",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:具有|达到|满足)([^，。；！？]{1,25})(?:马赫数|升阻比|系数|参数|特性)",
+      "relation": "has_parameter",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})的([^，。；！？]{1,25})(?:为|等于|在)(?:[0-9]+)",
+      "relation": "has_parameter",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})对([^，。；！？]{1,25})(?:进行控制|起到调节|实现平衡)",
+      "relation": "controls",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:为|向)([^，。；！？]{1,25})(?:提供动力|输送动力|驱动)",
+      "relation": "powered_by",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:由|包含|包括|分为|涵盖|集成了)([^，。；！？]{1,25})(?:组成|构成|部分|系统|组件|部件|模块)",
+      "relation": "has_component",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})是([^，。；！？]{1,25})的(?:下属系统|重要组成部分|核心部分|不可或缺的一部分)",
+      "relation": "part_of",
+      "group1": "target",
+      "group2": "source"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})属于([^，。；！？]{1,25})(?:系统|装置|总成|模块|架构)",
+      "relation": "part_of",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:发生|出现|导致|造成|引发|引起)([^，。；！？]{1,25})(?:故障|异常|损坏|误差|失效|漏油|卡滞|激波|烧蚀)",
+      "relation": "has_fault",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:故障|损坏|失效)(?:是由于|因为|原因在于)([^，。；！？]{1,25})",
+      "relation": "caused_by",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "由于([^，。；！？]{1,25})(?:导致|使得|造成)([^，。；！？]{1,25})(?:发生|出现|损坏|失效)",
+      "relation": "caused_by",
+      "group1": "target",
+      "group2": "source"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:采用|利用|使用|基于|结合了|引入了)([^，。；！？]{1,25})(?:技术|工艺|算法|方法|策略|网络|模型|架构)",
+      "relation": "uses_technology",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:采用|使用|由|借助)([^，。；！？]{1,25})(?:材料|合金|复合材料|涂层)(?:制成|制造|打造|加工)",
+      "relation": "uses_material",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "采用([^，。；！？]{1,25})(?:材料|设计|结构)(?:打造|制造|生产)的([^，。；！？]{1,25})",
+      "relation": "uses_material",
+      "group1": "target",
+      "group2": "source"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:具有|达到|满足|具备)([^，。；！？]{1,25})(?:马赫数|升阻比|系数|参数|特性|性能|能力)",
+      "relation": "has_parameter",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:对|向|给)([^，。；！？]{1,25})(?:进行控制|起到调节|实现平衡|输出指令|产生影响|进行抑制)",
+      "relation": "controls",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:控制|操纵|调节|补偿)([^，。；！？]{1,25})(?:的变化|的运动|的状态)",
+      "relation": "controls",
+      "group1": "source",
+      "group2": "target"
+    },
+    {
+      "regex": "([^，。；！？]{1,25})(?:依靠|凭借|通过)([^，。；！？]{1,25})(?:驱动|推动|提供推力|提供动力)",
+      "relation": "powered_by",
+      "group1": "source",
+      "group2": "target"
+    }
+  ],
+  "co_occurrence": {
+    "window": 50,
+    "min_freq": 3,
+    "relations": [
+      "related_to",
+      "connected_to"
+    ]
+  },
+  "possessive_patterns": [
+    {
+      "template": "{source}的{target}",
+      "source_pos": [
+        "n",
+        "nr",
+        "ns",
+        "nt"
+      ],
+      "target_pos": [
+        "n"
+      ],
+      "relation": "has_component"
+    },
+    {
+      "template": "{source}采用{target}",
+      "source_pos": [
+        "n"
+      ],
+      "target_pos": [
+        "n",
+        "v"
+      ],
+      "relation": "uses_technology"
+    }
+  ]
+}

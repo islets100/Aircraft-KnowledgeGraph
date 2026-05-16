@@ -1,0 +1,1104 @@
+{"doc": "变构飞行器_论文_CJA", "sentence": "Contents lists available at ScienceDirect"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal homepage: www.elsevier.com/locate/cja"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Final Accepted Version"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Research on an Aerodynamic-Driven Morphing Aircraft and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Its Aerodynamic Design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Tingyu Guo a,b, Chenhua Zhua, Liangtao Feng a, Yuyu Duan a, Haixin Chen a,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "a School of Aerospace Engineering, Tsinghua University, Beijing 100084, China"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "b China Academy of Aerospace Science and Innovation, Beijing 100088, China"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Received xx xx xxxc;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "revised xx xx xxxc;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "accepted xx xx xxxc"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Abstract"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing technology is considered a crucial direction for the future development of aircraft. However,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "conventional morphing aircraft often employ complex actuation mechanisms and actuators to drive the morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process. The associated costs in terms of structural weight increase and space occupancy are prohibitively high, even"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "exceeding the benefit of morphing. Especially for high aspect ratio aircraft with large root bending moments, it is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "very difficult for actuators to directly drive wing deformation. To address this issue, aerodynamic forces generated"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "by control surface deflection can be utilized as an alternative to actuator-driven morphing. This approach reduces the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "overall cost of morphing while enhancing its benefits. This novel aerodynamic-driven morphing technique imposes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "new requirements and challenges on the aerodynamic design of aircraft. With a combination of flight experiments"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and numerical simulations, this article analyzes the variations in aerodynamic forces during the aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process. Using a high aspect ratio long-endurance UAV as the design baseline, the design method of the control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surface for aerodynamic-driven morphing is also discussed."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Keywords: High aspect ratio aircraft;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing aircraft;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Flight test;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Aerodynamic design;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Computational Fluid Dynamics;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "1. Introduction1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "High-altitude long-endurance aircraft play a crucial"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "role in various fields, including but not limited to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Earth/sea"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "observation,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "resource"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "survey,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "meteorology.1-4 At high altitudes, where the air is thin,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft engaged in high-altitude cruising experience"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "higher lift coefficients, with induced drag constituting"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "a significant portion of the total drag. To enhance the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift-to-drag ratio and extend the range, high-altitude"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft often adopt designs with high aspect ratios,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "even to the extent of super-high aspect ratios."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Corresponding author. E-mail address: chenhaixintsinghua.edu.cn"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "However, high aspect ratio aircraft have stringent"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "requirements for takeoff and landing facilities, and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "their maneuverability and resistance to gusty winds"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "relatively"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "poor,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "significantly"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "limiting"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "their"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "practical utility.5,6 In recent years, morphing aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "have emerged as a focal point in aircraft development"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "exploration."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "altering"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "span"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "different flight phases through morphing technology,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "conflicting"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "requirements"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "between"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "takeoff/landing performance and cruising efficiency"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in high aspect ratio aircraft can be effectively"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "addressed.7-13"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Although variable-span morphing technology has"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "made considerable progress in recent times, its"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "application still faces substantial challenges. Many"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "existing variable-span morphing aircraft incur high"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "costs in terms of structural weight increase and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·2 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "internal space occupancy, rendering the benefits of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing technology unable to offset the various"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "costs."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Enhancing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "performance"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "benefits"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing technology and reducing its overall costs"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "imperative"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "future"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "development"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing technology.7,14-17"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "In response to this, the research team proposed an"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven morphing aircraft.18-20 The wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of this morphing aircraft consist of fixed wings and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wings connected by rods. The movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings rotate around hinges on the rod, while the rod"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "rotates around hinges on the fixed wings, and the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "achieved"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "through"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "coordination of these two rotations. During takeoff"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and landing, the fixed and movable wings form a"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "biplane configuration, resulting in a smaller wingspan,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lower requirements for takeoff/landing facilities, and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "improved resistance to wind during flight. In the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "cruising state, the fixed and movable wings form a"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "high aspect ratio monoplane configuration, as shown"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in Figure 1."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 1."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing process of the Monoplane-Biplane morphing aircraft."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "achieved"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "through"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic forces generated by the deflection of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons. No additional drive mechanisms are required"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "at the hinges. The morphing motion of the wings can"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "be decomposed into the revolution of the rod"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "around the fixed wing and the rotation of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing around the rod, as illustrated in Figure"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2. Each movable wing is equipped with a segment of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aileron on both its left and right sides. During the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process, the deflection of the ailerons is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "employed to alter the direction and magnitude of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift vector on the movable wing, thereby controlling"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the motion of the movable wing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 2."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Wing structure of the aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "In this novel concept, the research team conducted"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing flight experiments of the aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "-driven morphing aircraft, validating the rationality"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and feasibility of the aerodynamic-driven morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "concept. Figure 3 illustrates the process of controlling"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 3 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the morphing through aileron deflection during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "flight experiment, where the length of the arrows"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "reflects the magnitude of lift and gravity."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Under"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "normal"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "flight"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "conditions,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "contributed to the aircraft's roll control (Figure 3.A)."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "When the aircraft was preparing to transition from a"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "biplane configuration to a monoplane configuration,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the four ailerons on the two movable wings deflected"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "upward, generating lift on the wings that was less"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "than their own weight. The aerodynamic forces"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "maintain the movable wings in a stationary position,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "then released them from the fixed position (Figure"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "3.B). After releasing, the ailerons deflected downward,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "creating lift slightly greater than the weight of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings and inducing the wings to rotate upward"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(Figure 3.C), reaching a peak altitude (Figure 3.D)."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Subsequently,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflected"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "upward,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "producing lift slightly less than the weight of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings and driving the wings to rotate downward"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(Figure 3.E). During the morphing process, the two"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "each"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "differentially"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflected to control the roll of the movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "around the rod, keeping it essentially parallel to the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed wing while be able to generate necessary lateral"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "force to drive the revolution by small bank angle."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Upon completion of the morphing, the ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "continued to deflect downward, generating lift less"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "than the weight of the movable wings, maintaining"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "their stationary position and completing the fixation"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of the movable wings (Figure 3.F). Throughout the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process, the ailerons on the fixed wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "were responsible for controlling the roll of the entire"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft through differential deflection. They may also"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflected downward as needed to compensate for lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "losses due to morphing. The process of transitioning"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "from a monoplane to a biplane is the reverse of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "described morphing process. The use of aileron"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflection-generated"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "forces"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "autonomous"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "simplified"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "structure, minimized intrusion into the internal space"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of the wings, and achieved a 50% change in aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wingspan."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "This"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "method"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "effectively"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "avoids"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "shortcomings of other variable-span methods."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 3."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The process of aerodynamic-driven morphing in flight test of the validation aircraft."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "This paper focuses on the aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing variant aircraft, utilizing computational"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fluid dynamics methods and flight experiments to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "analyze"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "changes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process. Additionally, the paper explores"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "geometric shape design methods and control surface"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design methods for aerodynamic-driven morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Aerodynamic characteristics of aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "-driven morphing aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "employs aerodynamic forces for autonomous folding"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and unfolding. During the morphing process, it is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "necessary to adjust the deflection of ailerons to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "maintain the lift on the movable wings slightly greater"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "or slightly less than their own weight. To achieve this,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "it is essential to first understand the changes in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic forces during the morphing process. If"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·4 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "there is a significant or unsteady change in lift during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the morphing process, it may adversely affect the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control and safety of the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.1."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Research methods"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "In this paper, computational fluid dynamics (CFD)"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "methods"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "primarily"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "utilized"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "study"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic characteristics during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process. Considering that a complete model of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft, including ailerons, rods, and other"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "structural components, is relatively complex and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "computationally challenging, a simplified geometric"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "model"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "employed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "reduce"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "computational"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "complexity."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "geometric"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "model"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "used"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculations is a half-model, consisting of the fuselage,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed wing, and movable wing. The movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "can rotate parallel to the fixed wing. Both the fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing and the movable wing are modeled as straight"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings with NACA 2412 airfoil profiles. The chord"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "length for both wings is 1 meter, and the wingspan is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "5 meters each, resulting in an overall wingspan of 20"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "meters in the monoplane configuration, as illustrated"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Figure"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculations"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "involve"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "structured hexahedral mesh, comprising background"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and nested meshes. The background mesh includes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the fuselage, fixed wing, symmetry plane, and flow"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "field grid, with approximately 14 million grid cells."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The nested mesh includes the movable wing and the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surrounding flow field, with approximately 2 million"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "grid"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "cells,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "illustrated"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Figure"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configuration changes during the morphing process,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the overlapping grid method was used for grid"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "reconstruction, as shown in Figure 6."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 4."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The geometric model used in CFD calculation of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 5."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The grid used in CFD calculation of morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 6. The overset grid used in the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The inflow Mach number for the calculations is 0.2,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and the Reynolds number is 4 million. During the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "simulations, the movable wing undergoes a uniform"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "rotation from monoplane to biplane configuration or"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "vice versa. The rotational speed of the movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "around the fixed wing is set at 10° per second, with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "a rotation time of 15.7 seconds. The wing is at 0"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "degrees"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "rotation"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "when"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "monoplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configuration and at 157 degrees when in the biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configuration. The calculations employ the Unsteady"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Reynolds-Averaged Navier-Stokes (URANS) method"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and the Shear-Stress Transport (SST) turbulence"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "model. The calculation adopts a dual time step"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "advancement, with a time step length of 0.005s, and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "advances a total of 3500 steps."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 5 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.2.Changes in aerodynamic forces between biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and monoplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Before discussing the aerodynamic changes during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the morphing process, it is necessary to first clarify"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the aerodynamic characteristics of the aircraft in both"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "monoplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configurations."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "appeared in the early stages of aircraft development,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "providing greater lift when wingspan was limited."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "However, the mutual interference between the upper"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lower"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "also"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "resulted"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "loss"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic efficiency. Early research on biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft found that the aerodynamic loss mainly"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "depends on the wing spacing between the upper and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lower wings 21,22. The larger the spacing, the lower"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "loss."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "However,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "spacing cannot be greater than the fuselage height. At"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the same time, excessive wing spacing may have"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "adverse effects on pitch stability. Therefore, setting"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the spacing between the upper and lower wings to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "about 1 chord length is appropriate."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Considering that high aspect ratio planes typically"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "use rectangular or trapezoidal wings, aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculations and analyses were conducted on these"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "two types of monoplanes and biplanes, the geometric"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configurations are shown in Figure 7, and the taper"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ratio of the trapezoidal wing is 0.4."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Figure 8 and Figure 9 show the changes in lift and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "drag between monoplane and biplane (Lift and drag"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of wings, excluding fuselage and other parts). When"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the spacing between the wings is 1 chord length, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "loses"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "about"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "compared"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "monoplane at the same angle of attack. However, due"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "to the larger stall angle of biplane, the maximum lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "coefficient loss is reduced to 13% - which is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "completely acceptable compared to the benefits of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "reducing the takeoff wingspan by half."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The drag of a biplane is significantly increased"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "compared to a monoplane, partly due to the biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "interference, and partly due to a halving of the aspect"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ratio while the monoplane is converted to biplane."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "On the other hand, it can be seen that the lift and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "drag coefficients of biplanes with rectangular wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and trapezoidal wings are almost identical, which also"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "means that the discussion of rectangular wings in this"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "section can be further extended to trapezoidal wings."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 7."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Geometric configurations of rectangular and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "trapezoidal wings."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 8."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Comparison of lift coefficients between"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "monoplanes and biplanes."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 9."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Comparison of drag coefficients between"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "monoplanes and biplanes."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·6 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.3. Changes in aerodynamic forces during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.3.1 Lift and drag during the morphing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "such"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "brand-new"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "changes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process are more complex. Figure 10"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "illustrates the variation in lift and drag for different"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "angles of attack (2° and 6°) during the morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process, while Figure 11 shows the changes in wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "pressure distribution at a 2-degree angle of attack."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "From the computational results, it can be observed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "that during the transition from monoplane to biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configuration, there is a diminishing trend in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "low-pressure region at the leading edge of the upper"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surface of the movable wing. The lift exhibits a"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "gradual decrease, with a variation of approximately"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "20% during the morphing process. Meanwhile, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "drag shows an increasing trend. Overall, the changes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in lift and drag are relatively stable, which is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "favorable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "In addition to lift and drag, it is crucial to consider"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the variations in the aerodynamic center and the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "center of lift during the morphing process. Changes in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the pressure center and aerodynamic center along the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "chord direction of the wing can affect the pitch"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "stability of the aircraft during morphing, while"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "variations in the pressure center along the span of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing can influence its rotation."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 10. Changes in lift and drag of the aircraft during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 7 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 11."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Pressure distribution changes during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.3.2 Lift center and aerodynamic center"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "For the morphing aircraft, the height of the center"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of gravity undergoes significant changes during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process. The conventional definitions of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "center of lift and aerodynamic center for typical"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft are no longer applicable. Therefore, in this"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "study, the aircraft is divided into the fixed wing and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fuselage, and the movable wing, calculating their"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "respective centers of lift and aerodynamic centers."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Taking the leading edge of the fixed wing and the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "leading edge of the movable wing as the coordinate"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "origins, Figure 12 depicts the variations in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "chordwise center of lift and aerodynamic center for"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "both the fixed wing and fuselage, as well as the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing during the morphing process. It can be"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "observed that the center of lift of the movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "undergoes a change of around 5% (2°angle of attack)"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and 3% (6 ° angle of attack) of the chord length"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during the morphing process, while the center of lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "positions of the fixed wing and fuselage remain"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "essentially unchanged. During the transition from"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "monoplane to biplane configuration, the aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "centers of the fixed wing and fuselage shift forward"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "by approximately 3% of the wing chord, and the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic center of the movable wing shifts"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "forward by about 2% of the wing chord. Therefore, in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the aerodynamic design of the aircraft, it is necessary"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "to increase the static stability margin appropriately to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ensure pitch stability during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Therefore,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft, the pitch stability should be"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "appropriately enhanced, to cope with the aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "center movement during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·8 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 12."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Changes in the lift center and aerodynamic center of the aircraft in the chord direction during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Taking the innermost end of the movable wing as"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the coordinate origin (The coordinate axis is defined"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "according to Figure 12, 0% corresponds to the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "innermost end of the movable wing, and 100%"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "corresponds to the outermost end of the movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing), Figure 13 illustrates the variation in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "spanwise center of lift for the movable wing during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the morphing process at 2-degree angle of attack. It is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "worth noting that in both monoplane and biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configurations,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "spanwise"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "center"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing is located near the inner side, while in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the morphing process, the spanwise lift center is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "located at the center of 50% of the spanwise length."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "From Figure 13, it can be observed that in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "initial stage of the morphing process, when the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing separates from the fixed wing, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "spanwise movement of the spanwise center of lift on"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the movable wing is significant. Figure 14 further"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "illustrates the flow conditions during this stage,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "showing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "that"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "there"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "strong"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wingtip"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "vortex"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "interference between the inner end surface of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing and the outer end surface of the fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing. This interference can cause asymmetric lift on"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "both sides of the movable wing, and the wingtip"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "vortex will \"lift\" the inner side of the movable wing,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "preventing it from falling, obstructing the docking"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and locking of two wing tips. This phenomenon was"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "particularly evident in the flight test of the aircraft, as"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "depicted in Figure 15. Therefore, in aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design, it is crucial to pay attention to the placement"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of the hinge and coordinate it with a certain control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surface compensation to ensure the desired attitude of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the movable wing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 13."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Change of lift center in the spanwise direction of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wings during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 9 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig.14."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Flow situation of movable and fixed wings at the beginning of morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig.15."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Interference between fixed and movable wings hinder the rotation of the movable wing during a flight test."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.4. Unsteady effects during the morphing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "From Figures 10 and 12, it is evident that there are"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "stable differences in the computed results between the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "folding morph and unfolding morph cases, indicating"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the presence of unsteady effects during the morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process. To further analyze the source of these"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "unsteady effects, additional steady-state calculations"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "were conducted at intervals of 15 degrees in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing path, based on the previously obtained"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "results."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The comparison between the results of steady-state"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and unsteady-state calculations is shown in Figure 16."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "There is a noticeable difference between the two sets"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of results, and this difference approximately follows a"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "sine curve with the rotation angle. Moreover, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "difference becomes zero at a rotation angle of 90"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "degrees. It is hypothesized that this discrepancy may"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "be attributed to the motion of the movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during the morphing process, causing a change in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "effective"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "angle"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "attack"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "perpendicular"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "incoming flow direction. Then leads to variations in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift and drag on the movable wing, as depicted in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Figure 17."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·10 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 16."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Comparison of Unsteady and Steady Calculation"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Results in the Morphing Process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 17."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The Source of Unsteady Effects in the Morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Where"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "v is the velocity of the moving wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "around the fixed wing,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "yv is the vertical component"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "v , is the angle of attack, vis the velocity of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the incoming flow,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "'v is the equivalent velocity of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the incoming flow after considering the motion of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing. We can then deduce that:"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Where"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is the change in lift coefficient caused"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "by wing motion, and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "C is the derivative of lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "coefficient with respect to angle of attack. To verify"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "this conclusion, the results obtained from this formula"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "were compared with those from CFD calculations, as"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "shown in Figure 18. It can be observed that the two"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "sets of results are in close agreement, confirming the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "earlier hypothesis that the unsteady effects during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing morphing primarily arise from the variation in"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "effective angle of attack caused by the motion of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable wing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 18."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Comparison of Unsteady Effects between"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Theoretical Prediction Values and CFD Results."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2.5 Aerodynamics during the morphing process with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aileron deflection"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The above aerodynamic calculations are based on"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings without ailerons, but the deflection of ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is crucial for the aerodynamic-driven morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Therefore, it is necessary to discuss the aileron rudder"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "effect during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "geometries"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflected upwards and downwards by 10 ° were"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "constructed,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculations"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "were"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "performed on the aileron effects of the movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "at different positions during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The wing geometry and calculation results are shown"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in Figures 19 and 20. The angle of attack in the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculation is 2 degrees, and the position of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aileron hinge is at 80% chord length. From the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculation results, the aileron rudder effect hardly"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "changes during the morphing process, which is also"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "beneficial for controlling the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 11 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(a)Aileron deflected upwards"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(b) Aileron deflected downwards"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 19."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Geometry of movable wings with ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflected upwards/downwards."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 20."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Geometry of movable wings with ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflected upwards/downwards."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "From the comprehensive analysis of the above"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "calculation results, it can be observed that the lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "variation during the aerodynamic-driven morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process is relatively low and exhibits a smooth"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "transition. The mechanism of unsteady aerodynamics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in the morphing process is very clear, and the rudder"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "effect of the aileron remains unchanged during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process of morphing, which is advantageous for"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic control during the morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Based on these results and conclusions, further"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "discussions can be conducted on the design criteria"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "methods"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surfaces"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven morphing process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Aileron"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The aerodynamic-driven morphing aircraft utilizes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the aerodynamic forces generated by the deflection of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control surfaces for morphing. The area of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic control surfaces (ailerons) is one of its"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "most crucial design parameters. Therefore, it is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "necessary to conduct specialized discussions on the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design of ailerons for aerodynamic-driven morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "3.1. Design constraints for ailerons in morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "processes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Unlike"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "traditional"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "perform"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "different"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "functions during different stages. Figure 21 illustrates"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the task allocation of control surfaces during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process. In conventional flight, both the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed wing and the movable wing contribute to the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft's"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "both"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "participate in the aircraft's roll control. However,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during the morphing process, the lift of the movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing should be approximately equal to its own weight,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "while the lift of the fixed wing needs to balance the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "entire remaining weight of the aircraft. The ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of the movable wing control both the rotation and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "revolution of the movable wing, while the ailerons of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the fixed wing control the roll of the aircraft and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "compensate for the loss of lift due to morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 21. The Role of Different Rudders in the Process of Aerodynamic-driven Morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "In the conventional flight state of the aircraft, both"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the movable wing and the fixed wing generate lift,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and the sum of their lifts is equal to the weight of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft. At this moment:"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·12 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "G represents the total weight of the aircraft,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "are the lifts generated by the fixed wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and movable wing respectively,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "are the areas of the fixed wing and movable wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "respectively,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "coefficients of the fixed wing and movable wing at"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "this moment. During the morphing process, the total"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift of the aircraft needs to be redistributed. The lift of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the movable wing will be partially unloaded, causing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "its lift to be slightly greater or slightly less than its"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "own weight, driving it to move upward or downward"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(see Figure 22). Meanwhile, the lift of the fixed wing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "needs to compensate for a portion, ensuring its lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "equals the remaining weight of the entire aircraft:"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "represent the weight of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed portion and the movable wing of the aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "respectively,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "are the areas of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed wing and the movable wing respectively,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "are the lift coefficients of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed wing and the movable wing at this moment."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 22."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Expected rudder effect of movable wing ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during morphing process from biplane to monoplane."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The process of redistributing lift is achieved"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "through aileron deflection and changing the angle of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "attack, assuming that the slope of the lift line for fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and morphing wings is the same, then:"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Among them,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is the change in angle of attack,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "C is the slope of the lift line,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is the deflection"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "angle of the aileron for fixed wings (downward"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deviation is positive),"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is the deflection angle"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of the aileron for movable wings,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "derivative of the fixed wing lift coefficient with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "respect to the aileron deflection angle,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "derivative of the movable wing lift coefficient with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "respect to the aileron deflection angle."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Furthermore, the deflection angle of the active"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing ailerons during the morphing process can be"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "obtained:"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable2"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable1"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(10)"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "For this, we can obtain the required aileron"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflection angle for morphing under different flight"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "conditions. To ensure that the aileron effectiveness"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "remains linear throughout the morphing process, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aileron deflection angle"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "should not exceed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "10-15 degrees. Based on this, the minimum required"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "can be calculated, and consequently, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "required aileron area can be determined."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "3.2. Design principles of aileron based on the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing envelope"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "In conventional aircraft design, it is essential to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "define the flight envelope to proceed with the overall"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft design. For morphing aircraft, in addition to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the flight envelope, it is crucial to specify its"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing envelope. The morphing envelope includes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the maximum dynamic pressure envelope and the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "minimum dynamic pressure envelope. The maximum"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "dynamic pressure of the morphing envelope is mainly"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "determined by the structural strength of the morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "mechanism, while the minimum dynamic pressure"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "depends on the effectiveness of the ailerons on the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft's"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "larger"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing envelope provides greater flexibility for"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "transitions between different configurations."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 13 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Taking the aerodynamic-driven morphing aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "based on RQ-4A as the reference model in Figure 1,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the maximum upward deflection angle of the ailerons"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "on the movable wings is limited to 15 degrees."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Among these, 5 degrees are used to control the roll of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the movable wings, and 10 degrees are utilized for"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "unloading"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "). Assuming that the ailerons of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed wing do not participate in lift redistributing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "According to formulas (2) - (10) and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the calculation results in chapter 2.3, the morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "envelopes for the aircraft with different aileron areas"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "are obtained, as shown in Figure 23 (The taper ratio"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "has little effect on the performance of the wing, so we"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "think"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "that"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "characteristics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "rectangular wings in chapter 2.3 can be approximately"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "extended to trapezoidal wings). It can be observed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "that increasing the aileron area of the movable wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "significantly expands the morphing envelope of the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft. When the aileron area of the movable wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "accounts for 25%, the morphing envelope range is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "approximately twice as large compared to when the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aileron area is 15%."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "If the control strategy during the morphing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is altered, with the fixed-wing ailerons compensating"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "for a lift coefficient of 0.1 through downward"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "deflection"}
+{"doc": "变构飞行器_论文_CJA", "sentence": ",fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "fixed"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "envelope of the aircraft under these conditions is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "illustrated in Figure 24. Comparing Figure 24 with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Figure 23, it becomes evident that applying lift"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "compensation to the fixed-wing ailerons similarly"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "leads to a significant expansion of the aircraft's"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing envelope."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 23. Morphing envelope of the aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft with different aileron area of movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Fig. 24. Morphing envelope of the aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft when fixed-wing ailerons compensating"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "some lift."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Overall,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft control surfaces depends primarily"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "on the requirements for the morphing envelope and is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "coupled with the flight control strategy during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process. In the design process, it is essential"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "to first define the morphing envelope of the aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and the flight control strategy, and subsequently"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "determine"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "approach"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surfaces based on the wing's planform shape. The"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "analysis results for the RQ-4A as the baseline aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "indicate"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "that"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "surface"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "area"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ratio"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "approximately 15%-20% can meet the requirements"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of aerodynamic-driven morphing. Although this value"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is larger compared to conventional aircraft, it does not"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "significantly disrupt the wing's shape and structural"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "4. Conclusions"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "The aerodynamic-driven morphing aircraft utilizes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the deflection of control surfaces to achieve morphing,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "eliminating"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "need"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "complex"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "actuation"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "mechanisms. This approach effectively addresses the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "high"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "weight"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "penalty"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "associated"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "with"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "traditional"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "designs."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "However,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "this"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "novel"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing mode presents new challenges for the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic design of the aircraft. This study focuses"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "on a new concept of aerodynamic-driven morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft and conducts research on its aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design methodology."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(1) The paper begins by analyzing the variation of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic forces during the morphing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "through a combination of flight experiments and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "numerical simulations. The study investigates the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic effects and non-steady-state phenomena"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "process."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Based"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "understanding"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "variations"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "·14 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing, the allocation of tasks to control surfaces"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during the aerodynamically driven morphing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "is discussed. The aerodynamic variation during the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven morphing process is relatively"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "low and exhibits a smooth transition. The mechanism"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of unsteady aerodynamics in the morphing process is"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "clear, and the rudder effect of the aileron remains"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "unchanged during the process of morphing. From the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "perspective of aerodynamic control, aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "-driven morphing is highly feasible."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "From the perspective of aerodynamic design, this"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing approach also brings some new problems,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "such as the need for additional enhancement of static"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "stability to cope with aerodynamic center changes"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "during the morphing process, and a loss of about 13%"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in the maximum lift coefficient under a biplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "configuration. However, compared to the ability to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "change the 50% wingspan, these costs are completely"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "acceptable. At the same time, the complexity of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic in morphing undoubtedly increases the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "difficulty of control and structural design, which also"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "brings additional challenges to aircraft designers."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(2) Based on the understanding of aerodynamic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "variations during morphing, the allocation of tasks to"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "control surfaces during the aerodynamically driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing process is discussed. Using a high aspect"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "ratio long-endurance UAV as the baseline aircraft, the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "impact"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "different"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "parameters"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing envelope is further explored, leading to the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "formulation of aerodynamic design principles based"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "on the morphing envelope for aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing aircraft. The analysis results suggest that"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the aileron area ratio of approximately 15%-20% for"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "movable"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "wings"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "meet"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "need"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aerodynamic-driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "This"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "means"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "that"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "simply expanding ailerons can replace the original"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "actuators, greatly reducing the costs of morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Acknowledgements"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "This study was co-supported by the National"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Natural Science Foundation of China (No. ) ."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "（陈老师需要您补充基金号）"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Declaration"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "generative AI"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and AI-assisted"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "technologies in the writing process"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "During the preparation of this work the authors"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "used GhatGPT in order to check for grammar errors,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "improve readability and language. After using this"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "tool/service, the authors reviewed and edited the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "content as needed and takes full responsibility for the"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "content of the publication."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "References"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "1. Ragettli S, Pellicciotti F, Immerzeel WW, et al."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Unraveling"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "hydrology"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Himalayan"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "catchment through integration of high resolution"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "in situ data and remote sensing with an advanced"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "simulation model. Advances in Water Resources"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2015;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "78:94-111."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2. Gaudel A, Cooper OR, Chang KL, et al. Aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "observations since the 1990s reveal increases of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "tropospheric ozone at multiple locations across"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "the Northern Hemisphere. Sci Adv 2020;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "eaba8272."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "3. Yuniarti, D. Regulatory challenges of broadband"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "communication"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "services"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "from"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "high"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "altitude"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "platforms (HAPs). 2018 International Conference"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "on Information and Communications Technology"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "(ICOIACT). Las Vegas: IEEE;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2018. p4800."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "4. Tsach S, Peled A, Penn D, et al. Development"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "trends for next generation of UAV systems. AIAA"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "InfotechAerospace"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Conference"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Exhibit. Rohnert Park: AIAA;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2013. p2762."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "5. Hoblit F M. Gust loads on aircraft: concepts and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "applications AIAA Education, 1988."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "6. Wyngaard,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "John"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Atmospheric"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "turbulence."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Annual Review of Fluid Mechanics 1992;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "24(1):"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "205-234."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "7. Weisshaar"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "T A."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing Aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Systems:"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Historical Perspectives and Future Challenges."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal of Aircraft 2013;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "50:337-353."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "8. Lingling CH, Qi LI, Feng GU, et al. Design,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "modeling, and control of morphing aircraft: A"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "review. Chinese Journal of Aeronautics 2022;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "35(5):220-46."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "9. Cistone"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Next"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Century"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Aerospace"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Traffic"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Management: The Sky is No Longer the Limit."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal of Aircraft 2004;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "41:36-42."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "10. Frommer J, Crossley W. Enabling Continuous"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Optimization"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Sizing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Concepts. 43rd AIAA Aerospace Sciences Meeting"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and Exhibit. Reno: AIAA;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2017. p. 816."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "11. Barbarino S, Bilgen O, Ajaj RM, et al. A Review"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing Aircraft."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Intelligent"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Material Systems and Structures 2011;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "22:823"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "-877."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "12. Rodriguez"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "technology"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "survey. 45th AIAA aerospace sciences meeting"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "and exhibit. Reno: AIAA;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2007. p.1258."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "13. Valasek J. Morphing aerospace vehicles and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "structures."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Guidance"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Control"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Dynamics 2012;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "36(5):1562-1563."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "14. Leng Jinsong, Sun Jian, Liu Yanju. Application"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Status and Future Prospect of Smart Materials and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Structures in Morphing Aircraft. Acta Aeronautica"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Astronautica"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Sinica"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2014;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "35(1):"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "29-45"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "15. Zhang Xuhui, Xie Chunlei, Liu Sijia, et al."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Development needs and difficulty analysis for"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "smart morphing aircraft. Acta Aeronautica et"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Astronautica Sinica 2023;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "44(21): 529302-529302"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "16. Ajaj"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Beaverstock"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Friswell"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese Journal of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "· 15 ·"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing aircraft: The need for a new design"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "philosophy. Aerospace Science And Technology"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2016;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "49:15466."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "17. Muhammed SP, Jafar SP, Rafic M, et al. A review"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of control strategies used for morphing aircraft"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "applications."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Chinese"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "of Aeronautics"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "2023.37(4): 436-463."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "18. Guo T, Feng L, Zhu C, et al. Conceptual"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Research"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "a Mono-Biplane Aerodynamics-"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Driven Morphing Aircraft. Aerospace 2022;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "9(7):"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "380."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "19. Feng L, Guo T, Zhu C, et al. Control of"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Aerodynamic-Driven"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Morphing."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Journal"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Guidance, Control, and Dynamics 2023;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "46(1):"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "198-205."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "20. Feng L, Guo T, Zhu C, et al. Control Design and"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Flight Test of Aerodynamics-Driven Monoplane"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "-Biplane Morphing Aircraft. Journal of Guidance,"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Control, and Dynamics 2023;"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "46(12): 2373-87."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "21. Munk M M. General biplane theory. 1923.Report"}
+{"doc": "变构飞行器_论文_CJA", "sentence": "No. :NACA-TR-151."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "22. Prandtl L. Induced drag of multiplanes.1924."}
+{"doc": "变构飞行器_论文_CJA", "sentence": "Report No. :NACA-TN-182."}
